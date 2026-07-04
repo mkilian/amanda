@@ -304,7 +304,7 @@ sub {
 		if (defined $sl->{'barcode'} and
 		    defined $volume->{'barcode'} and
 		    $sl->{'barcode'} ne $volume->{'barcode'}) {
-		    $line .= " MISTMATCH barcode in catalog $volume->{'barcode'}";
+		    $line .= " MISMATCH barcode in catalog $volume->{'barcode'}";
 		}
 	    }
 
